@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Marko Raicevic - CV</title>
     <style>
         table, th, td {
@@ -19,38 +21,52 @@
         </style>
 </head>
 
-<body style="background-color: #000;color: #fff; ">
+<body>
+    <!-- Nav-bar -->
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#oMeni">O meni</a>
+        <a href="#rasporedPredavanja">Raspored predavanja</a>
+        <a href="#kontakt">Kontakt</a>
+      </div>
+      
+      </div>
+
     <div>
-        <h1 style="text-align: center; ">Marko Raičević - CV </h1>
+        <h1 class="center">Marko Raičević - CV </h1>
     </div>
     <br>
     <div >
-        <img src="./slikaZaVizu.jpg" alt="Profilna fotografija" style="display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 400px; 
-        height: auto;">
+        <img src="./slikaZaVizu.jpg" alt="Profilna fotografija" id="profilePhoto"  >
     </div>
 
-    <div id="o_meni" style="text-align: center; ">
+    <div class="center" id="oMeni">
             <h2 id="naziv_fakulteta">Student fakulteta za informacione sisteme i tehnologije</h2>
-            <img src="./logo.png" alt="UDG logo" id="logo" style="display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 200px; 
-            height: auto;" >
+            <img src="./logo.png" alt="UDG logo" id="logo" >
+            
             <br>
             <h1>O meni</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptatum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptatum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptatum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptatum.</p>
+                <ul>
+                    <li>
+                        Moje ime je Marko Raičević, student sam 3 godine fakulteta za informacione sisteme i tehnologije na UDG.
+                    </li>
+                    <li>
+                        Rođen sam 25.11.2001. u Bijelom Polju, gdje sam završio osnovnu i srednju školu.
+                    </li>
+                    <li>
+                        Prvi susret sa programiranjem sam imao u srednjoj školi, i tad sam shvatio da će to biti moj put u nastavku školovanja.
+                    </li>
+                    <li>
+                        U slobodno vrijeme volim da planinarim i igram košarku.
+                    </li>
+                </ul>
+    
     </div>
 <br><br>
 
 
-    <div id="raspored_predavanja">
-            <h2 style="text-align: center;">Raspored predavanja</h2>
+    <div id="rasporedPredavanja">
+            <h2 class="center">Raspored predavanja</h2>
         <table >
             <tr>
                 <th></th>
@@ -143,17 +159,17 @@
                 </tr>
             <tr>
                 <td colspan="2">
-                    <input type="button" value="Pošalji" style="background-color: green; color:#fff; width:50%; height:35px; cursor: pointer;">
+                    <input type="button" value="Pošalji">
                 </td>
             </tr>
         </form>
         </table>
-      
-      
-            
    
- 
+    </div>
 
+    <div class="drustveneMreze">
+        <a href="https://www.facebook.com/marko.raicevic.12576"  target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.linkedin.com/in/raicevicmarko/" target="_blank" class="fa fa-linkedin"></a>
     </div>
 </body>
 </html>
